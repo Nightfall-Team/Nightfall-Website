@@ -4,9 +4,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const organizationName = "Nightfall-Team";
-const projectName = "Nightfall-Website";
-
 const config: Config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
@@ -25,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: ${organizationName}, // Usually your GitHub org/user name.
-  projectName: ${projectName}, // Usually your repo name.
+  organizationName: "Nightfall-Team", // Usually your GitHub org/user name.
+  projectName: "Nightfall-Website", // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
