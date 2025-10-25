@@ -39,17 +39,12 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-        },
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -75,12 +70,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+        {to: '/wiki/home-page', label: 'How to Play', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'}
       ],
     },
@@ -88,11 +78,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Wiki',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'How To Play',
+              to: '/wiki/intro',
             },
           ],
         },

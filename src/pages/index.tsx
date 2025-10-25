@@ -20,8 +20,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/wiki/home-page">
+            How To Play
           </Link>
         </div>
       </div>
@@ -36,9 +36,6 @@ export default function Home(): ReactNode {
       title={`Welcome to Nightfall!`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }
