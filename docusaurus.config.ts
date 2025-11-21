@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Nightfall Website',
+  title: 'Nightfall',
   tagline: 'Minecraft Minigame Server',
   favicon: 'img/favicon.ico',
 
@@ -37,8 +37,13 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          path: 'wiki',
+          routeBasePath: 'wiki'
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -66,11 +71,11 @@ const config: Config = {
     navbar: {
       title: 'Nightfall Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Site Logo',
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/wiki/home-page', label: 'How to Play', position: 'left'},
+        {to: '/wiki/introduction', label: 'How to Play', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'}
       ],
     },
@@ -82,7 +87,7 @@ const config: Config = {
           items: [
             {
               label: 'How To Play',
-              to: '/wiki/home-page',
+              to: '/wiki/introduction',
             },
           ],
         },
