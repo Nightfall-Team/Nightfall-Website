@@ -4,7 +4,8 @@ Nightfall's DvZ gamemode has a set of maps, but one way community members can co
 
 ### Notes
 
-If you build a map, it is not guarenteed to be accepted or playtested. Additionally, the Nightfall staff may make changes to the map if the gamemode requires it, and you should understand that submitting a map to the staff is granting Nightfall permission to use your map in the future forever.
+If you build a map, it is not guarenteed to be accepted or playtested.
+Additionally, Nightfall staff may make changes to the map if the gamemode requires it, and you should understand that submitting a map to the staff is granting Nightfall permission to use your map in the future forever.
 
 ## Map Basics
 
@@ -13,11 +14,11 @@ If you build a map, it is not guarenteed to be accepted or playtested. Additiona
     * doMobSpawning
     * doTileDrops
     * doEntityDrops
-* There should be 3-5 shrines. 3 is the recommended amount.
+* There should be 3 or 5 shrines. 3 is the recommended amount, while a 5 shrine map may be harder to submit and be accepted.
 * The Run Time between shrines should be 20-30 seconds.
     * Run time is defined as sprint-jumping without any speed modifiers from one shrine to the next
-* There should be 2,000-3,000 gold ore blocks, for a total of ~10,000 gold per game.
-* There should be 2,000-3,000 gravel blocks for people to dig for building blocks.
+* There should be 3,000 gold ore blocks, for a total of ~10,000 gold per game.
+* There should be 3,000 gravel blocks for people to dig for building blocks.
 * There should be various trees that players can chop for lumber, as well as a Cutting Station (the Stonecutter block), and Oil (Sponge block).
 
 ## Recommendations
@@ -39,7 +40,9 @@ Any of the following will have your map rejected:
 
 ## Submission
 
-Message the Nightfall Bot (our discord bot) with a downlaod link to your map. Google Drive or Dropbox are the recommended file hosting services. We recommend sending a few screenshots as well.
+Message the Nightfall Bot (our discord bot) with a download link to your map.
+Google Drive or Dropbox are the recommended file hosting services. 
+We recommend sending a few screenshots as well.
 The staff may contact you for feedback and recommended changes.
 
 Alongside the Minecraft world files, you should include the following information in the message or as a text document in the download:
